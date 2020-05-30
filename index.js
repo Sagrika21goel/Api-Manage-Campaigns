@@ -1,6 +1,5 @@
 const express = require("express");
 const app = express();
-const port = 8000;
 app.use('/static', express.static("public"));
 
 const json = {
@@ -104,4 +103,4 @@ app.use(function(req, res, next) {
 
 app.get("/", (req, res) => res.send(json));
 
-app.listen(process.env.port || port, () => console.log(`Example app listening on port ${port}!`));
+app.listen(process.env.port, () => console.log(`Example app listening on port ${port}!`));
