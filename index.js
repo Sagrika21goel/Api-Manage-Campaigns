@@ -104,4 +104,4 @@ app.use(function(req, res, next) {
 
 app.get("/", (req, res) => res.send(json));
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+app.listen(process.env.port || port, () => console.log(`Example app listening on port ${port}!`));
