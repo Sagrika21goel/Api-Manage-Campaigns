@@ -26,7 +26,7 @@ app.use(function(req, res, next) {
 });
 
 app.get("/", (req, res) => {
-  var hostname = req.headers.host;
+  var hostname = "https://"+req.headers.host;
   res.send({
   data: [
     {
