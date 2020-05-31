@@ -91,7 +91,41 @@ app.get("/", (req, res) => {
         csv: "Some CSV link for Mancala Mix",
         report: "Some report link for Mancala Mix",
         image_url: hostname + "/static/assets/images/Dashboard/Row-8/Thumb/Bitmap.png"
-    }]
+    }, {
+        name: "Jon Pro",
+        region: "UK",
+        createdOn: 1590926515000,
+        price: "Price info of Mancala Mix",
+        csv: "Some CSV link for Mancala Mix",
+        report: "Some report link for Mancala Mix",
+        image_url: hostname + "/static/assets/images/Dashboard/Row-2/Thumb/Bitmap.png"
+    },{
+        name: "San Due",
+        region: "IND",
+        createdOn: 1591926722000,
+        price: "Price info of Mancala Mix",
+        csv: "Some CSV link for Mancala Mix",
+        report: "Some report link for Mancala Mix",
+        image_url: hostname + "/static/assets/images/Dashboard/Row-4/Thumb/Bitmap.png"
+    },{
+        name: "Pis Due",
+        region: "FR",
+        createdOn: 1591126722000,
+        price: "Price info of Mancala Mix",
+        csv: "Some CSV link for Mancala Mix",
+        report: "Some report link for Mancala Mix",
+        image_url: hostname + "/static/assets/images/Dashboard/Row-1/Thumb/Bitmap.png"
+    },{
+        name: "Ast tis",
+        region: "AUS",
+        createdOn: 1591110522000,
+        price: "Price info of Mancala Mix",
+        csv: "Some CSV link for Mancala Mix",
+        report: "Some report link for Mancala Mix",
+        image_url: hostname + "/static/assets/images/Dashboard/Row-5/Thumb/Bitmap.png"
+    }
+    ]
+
     currentTimeStamp = Math.round(new Date().getTime());
     pTime = currentTimeStamp - 43200000
     uTime = currentTimeStamp + 43200000
