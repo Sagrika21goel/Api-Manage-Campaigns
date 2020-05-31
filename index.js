@@ -114,7 +114,7 @@ app.get("/", (req, res) => {
         price: "Price info of Mancala Mix",
         csv: "Some CSV link for Mancala Mix",
         report: "Some report link for Mancala Mix",
-        image_url: hostname + "/static/assets/images/Dashboard/Row-1/Thumb/Bitmap.png"
+        image_url: hostname + "/static/assets/images/Dashboard/Row-7/Thumb/Bitmap.png"
     },{
         name: "Ast tis",
         region: "AUS",
